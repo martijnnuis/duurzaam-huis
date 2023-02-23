@@ -1,0 +1,12 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --background--body: ;
+    --color--text: ;
+    --color--hghlights: ;
+    --color--boxes: ;
+}
