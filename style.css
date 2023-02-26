@@ -4,6 +4,20 @@
     box-sizing: border-box;
 }
 
+html{
+    /* 1 REM IS NU 10 PX */
+    font-size: 62.5%;
+}
+
+.dashboard{
+    border: 4rem solid #789777;
+}
+
+.box{
+    border: 0.5rem solid black;
+    border-radius: 5rem ;
+}
+
 :root{
     --background--body: ;
     --color--text: ;
