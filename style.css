@@ -10,12 +10,36 @@ html{
 }
 
 .dashboard{
-    border: 4rem solid #789777;
+    border: 3rem solid #798777;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+}
+    
+.header > img {
+    height: 16rem;
+    width: 16rem;
+    margin: 2rem;
+}
+
+.header> h1{
+    font-size: 8rem;
+    font-weight: 400;
+} 
+
+.content{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 2rem;
 }
 
 .box{
-    border: 0.5rem solid black;
-    border-radius: 5rem ;
+    border: 0.5rem solid rgba(0, 0, 0, 0.8);
+    font-size: 30px;
+    text-align: center;
+    height: 34rem;
 }
 
 :root{
