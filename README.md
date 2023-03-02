@@ -7,7 +7,7 @@
 *20-2-2023* **Martijn:**
 HTML bestand is toegevoegd en basis staat.
 
-*23-2-2023 Martijn:*
+**23-2-2023** *Martijn:*
 css styling met root staat klaar om ingevuld te worden.
 
 
