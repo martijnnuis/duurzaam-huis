@@ -32,7 +32,7 @@ html{
 .content{
     display: grid;
     grid-template-columns: auto auto auto;
-    gap: 2rem;
+    gap: 1rem;
 }
 
 .box{
@@ -40,6 +40,25 @@ html{
     font-size: 30px;
     text-align: center;
     height: 34rem;
+    margin: 2rem;
+    border-radius: 1rem;
+    max-width: 60rem;
+}
+
+@media only screen and (max-width: 1200px){
+
+    .content{
+        grid-template-columns: auto auto;
+    }
+
+}
+
+@media only screen and (max-width: 800px){
+
+    .content{
+        grid-template-columns: auto;
+    }
+
 }
 
 :root{
