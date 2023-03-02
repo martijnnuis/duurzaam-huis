@@ -2,6 +2,7 @@
 ## Dit is de repository voor BO Duurzaam huis.
 
 >*datum* **Naam**
+>
 >Wat er gedaan is
 
 ### Main branch
