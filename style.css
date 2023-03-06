@@ -4,13 +4,21 @@
     box-sizing: border-box;
 }
 
+:root{
+    --background--body: #9da482;
+    --color--text: #232914;
+    --color--highlights: #5c644e;
+    --color--boxes: #aabeab;
+    --extra--color:#879884;
+}
+
 html{
     /* 1 REM IS NU 10 PX */
     font-size: 62.5%;
 }
 
 .dashboard{
-    border: 3rem solid #798777;
+    border: 3rem solid var(--color--highlights);
 }
 
 .header{
@@ -61,9 +69,3 @@ html{
 
 }
 
-:root{
-    --background--body: ;
-    --color--text: ;
-    --color--hghlights: ;
-    --color--boxes: ;
-}
