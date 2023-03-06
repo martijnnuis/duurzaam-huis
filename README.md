@@ -27,3 +27,6 @@ Boxes geplaatst met css grid, en begin aan de header (logo en naam).
 
 *02-03-2023* **Bente:**
 Css Grid pas nu aan op de breedte van het scherm.
+
+*06-03-2023* **Martijn:**
+de root is ingevuld en kan gebruikt worden.
