@@ -9,6 +9,16 @@ html{
     font-size: 62.5%;
 }
 
+:root{
+    --background--body: #FCF6F0;
+    --color--text: #000;
+    --color--highlights: #a2b29f;
+    --color--boxes: #000;
+    --color--border: #798777;
+
+    --extra--color: #BDD2B6;
+}
+
 .dashboard{
     border: 3rem solid #798777;
 }
@@ -46,7 +56,7 @@ html{
 }
 
 @media only screen and (max-width: 1200px){
-
+    
     .content{
         grid-template-columns: auto auto;
     }
@@ -59,11 +69,4 @@ html{
         grid-template-columns: auto;
     }
 
-}
-
-:root{
-    --background--body: ;
-    --color--text: ;
-    --color--hghlights: ;
-    --color--boxes: ;
 }
