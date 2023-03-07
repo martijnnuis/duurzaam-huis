@@ -1,6 +1,6 @@
 //algemene dingen voor tijd en datum
 const vandaag = document.getElementById("date");
-const tijd = document.getElementById("Time");
+const tijd = document.getElementById("time");
 var today = new Date();
 
 //dag-maand-jaar
