@@ -30,3 +30,7 @@ Css Grid pas nu aan op de breedte van het scherm.
 
 *06-03-2023* **Martijn:**
 de root is ingevuld en kan gebruikt worden.
+
+*07-03-2023* **Martijn:**
+1. de mappen structuur staat
+2. tijd en datum staan op de site
