@@ -1,16 +1,21 @@
 //algemene dingen voor tijd en datum
 const vandaag = document.getElementById("date");
-const tijd = document.getElementById("time");
-var today = new Date();
+// const tijd = document.getElementById("time");
+let today = new Date();
 
 //dag-maand-jaar
-var date = today.getFullYear()+'-'+(today.getMonth()+1)+'-'+today.getDate();
-var datum = date;
+let date = today.getFullYear() + '-' + (today.getMonth() + 1) + '-' + today.getDate();
+let datum = date;
 console.log(datum);
 vandaag.innerText = datum;
 
-//tijd in uren en minuten
-var time = (today.getHours()) + ":" + today.getMinutes();
-tijd.innerText = time;
 
-
+let time = (today.getHours()) + ":" + today.getMinutes() + ":" + today.getSeconds();
+wijzigen = document.getElementById("time");
+function tijd() {   
+    today = new Date();
+    time = today.getHours() + ":" + today.getMinutes() + ":" + today.getSeconds();
+    wijzigen.innerText = time;
+    
+}
+setInterval(tijd, 1000);
