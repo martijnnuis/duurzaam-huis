@@ -40,3 +40,6 @@ de klok werkt moeten nog wel kleine dingen aan gebeuren.
 
 *16-03-2023* **Martijn:**
 de klok is verbeterd en werkt nog beter.
+
+*16-03-2023* **Martijn:**
+datum wordt nu ook geupdate dus gaat automatisch over naar nieuwe datum.
