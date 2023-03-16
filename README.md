@@ -37,3 +37,6 @@ de root is ingevuld en kan gebruikt worden.
 
 *09-03-2023* **Martijn:**
 de klok werkt moeten nog wel kleine dingen aan gebeuren.
+
+*16-03-2023* **Martijn:**
+de klok is verbeterd en werkt nog beter.
