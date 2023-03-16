@@ -4,17 +4,17 @@
     box-sizing: border-box;
 }
 
+html{
+    /* 1 REM IS NU 10 PX */
+    font-size: 62.5%;
+}
+
 :root{
     --background--body: #9da482;
     --color--text: #232914;
     --color--highlights: #5c644e;
     --color--boxes: #aabeab;
     --extra--color:#879884;
-}
-
-html{
-    /* 1 REM IS NU 10 PX */
-    font-size: 62.5%;
 }
 
 .dashboard{
@@ -48,12 +48,11 @@ html{
     font-size: 3rem;
     text-align: center;
     height: 34rem;
-    margin: 2rem;
     border-radius: 1rem;
-    max-width: 60rem;
+    max-width: 57rem;
 }
 
-@media only screen and (max-width: 120rem){
+@media only screen and (max-width: 100rem){
 
     .content{
         grid-template-columns: auto auto;

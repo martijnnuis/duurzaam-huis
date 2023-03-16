@@ -1,4 +1,4 @@
-//algemene dingen voor tijd en datum
+//variable voor tijd en datum
 const vandaag = document.getElementById("date");
 // const tijd = document.getElementById("time");
 let today = new Date();
