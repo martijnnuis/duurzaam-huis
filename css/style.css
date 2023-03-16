@@ -32,7 +32,7 @@ html{
     margin: 2rem;
 }
 
-.header> h1{
+.header h1{
     font-size: 8rem;
     font-weight: 400;
 } 
