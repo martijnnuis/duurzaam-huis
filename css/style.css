@@ -17,6 +17,10 @@ html{
     --extra--color:#879884;
 }
 
+.header-date{
+    padding: 1rem;
+}
+
 .dashboard{
     border: 3rem solid var(--color--highlights);
 }
