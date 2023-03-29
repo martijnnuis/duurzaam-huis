@@ -17,6 +17,11 @@ html{
     --extra--color:#879884;
 }
 
+body{
+    font-size: 2rem;
+    font-family: sans-serif;
+}
+
 .header-date{
     padding: 1rem;
 }
