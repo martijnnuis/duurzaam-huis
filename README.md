@@ -43,3 +43,6 @@ de klok is verbeterd en werkt nog beter.
 
 *16-03-2023* **Martijn:**
 datum wordt nu ook geupdate dus gaat automatisch over naar nieuwe datum.
+
+*04-04-2023* **Martijn:**
+branch js is bijgewerkt met een werkende ranomizer deze wordt gemerged met de main branch daarna het optellen maken.
