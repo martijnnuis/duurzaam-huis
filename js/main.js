@@ -49,10 +49,23 @@ setInterval(tijd, 1000);
 
 //besparing
 
-const besparingButton = document.getElementById("js--besparing-button");
+const besparingText = document.getElementById("js--besparing-text");
 
-besparingButton.onclick = function () {
-    Math.random() * 11;
-        
 
+let beginNumber = 0;
+let secondNumber = 0;
+
+function showBesparing () {
+
+    let randomNumber = Math.floor(Math.random() * 11);
+    let randomDecimal = Math.floor(Math.random() * 99);
+
+    if (randomDecimal < 10) {
+        randomDecimal = "0" + randomDecimal;
+    }
+
+    showNumber = randomNumber + "," + randomDecimal;
+    besparingText.innerText = showNumber;
 }
+setInterval(showBesparing, 10000);
+
