@@ -6,16 +6,16 @@ function datum() {
     let year = today.getFullYear();
     let month = (today.getMonth() + 1);
     let day = today.getDate();
-    
-    if (month < 10){
+
+    if (month < 10) {
         month = "0" + month
     }
 
-    if (day < 10){
+    if (day < 10) {
         day = "0" + day
     }
-    
-    let datum =  day + "/" + month + "/" + year;
+
+    let datum = day + "/" + month + "/" + year;
     vandaag.innerText = datum;
 }
 setInterval(datum, 1000);
@@ -46,3 +46,26 @@ function tijd() {
     wijzigen.innerText = acarateTime;
 }
 setInterval(tijd, 1000);
+
+//besparing
+
+const besparingText = document.getElementById("js--besparing-text");
+
+
+let beginNumber = 0;
+let secondNumber = 0;
+
+function showBesparing () {
+
+    let randomNumber = Math.floor(Math.random() * 11);
+    let randomDecimal = Math.floor(Math.random() * 99);
+
+    if (randomDecimal < 10) {
+        randomDecimal = "0" + randomDecimal;
+    }
+
+    showNumber = randomNumber + "," + randomDecimal;
+    besparingText.innerText = showNumber;
+}
+setInterval(showBesparing, 10000);
+
