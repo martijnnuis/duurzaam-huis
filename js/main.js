@@ -52,20 +52,38 @@ setInterval(tijd, 1000);
 const besparingText = document.getElementById("js--besparing-text");
 
 
-let beginNumber = 0;
-let secondNumber = 0;
 
-function showBesparing () {
 
-    let randomNumber = Math.floor(Math.random() * 11);
-    let randomDecimal = Math.floor(Math.random() * 99);
+// function showBesparing () {
 
-    if (randomDecimal < 10) {
-        randomDecimal = "0" + randomDecimal;
-    }
+//     let randomNumber = Math.floor(Math.random() * 11);
+//     let randomDecimal = Math.floor(Math.random() * 99);
 
-    showNumber = randomNumber + "," + randomDecimal;
-    besparingText.innerText = showNumber;
+//     if (randomDecimal < 10) {
+//         randomDecimal = "0" + randomDecimal;
+//     }
+
+//     showNumber = randomNumber + "," + randomDecimal;
+//     besparingText.innerText = showNumber;
+// }
+let beginNumber = 0
+let randomTime = 0
+
+function generateNumber(min, max) {
+    randomTime = Math.floor(Math.random()* (max - min)+ min);
+    console.log(randomTime);
 }
-setInterval(showBesparing, 10000);
+
+window.onload = (generateNumber(60000, 600000))
+
+function showBesparing() {
+
+    let randomNumber = Math.random() * 11;
+    beginNumber += randomNumber
+
+    showNumber = beginNumber.toFixed(2);
+    besparingText.innerText = showNumber;
+    generateNumber(60000, 600000);
+}
+setInterval(showBesparing, randomTime);
 
