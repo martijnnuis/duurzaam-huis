@@ -50,19 +50,20 @@ main{
 .header> h1{
     font-size: 8rem;
     font-weight: 400;
-    grid-column: 4/10;
-    grid-row: 2/3;
+    grid-column: 3/10;
+    grid-row: 1/2 ;
 } 
 
 .header-date{
     font-size: 4rem;
-    grid-column: 4/6;
-    grid-row: 1/2;
+    grid-column: 10/12;
+    grid-row: 2/3;
 }
 
 .header-time{
     font-size: 4rem;
-    grid-column: 6/8;
+    grid-column: 12/12;
+    grid-row: 2/3;
 }
 
 .content{
