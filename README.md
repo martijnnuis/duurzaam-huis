@@ -49,3 +49,6 @@ branch js is bijgewerkt met een werkende ranomizer deze wordt gemerged met de ma
 
 *05-04-2023* **Martijn:**
 het optel systeem is werkt en doet dit tussen de 1 en 10 minuten.
+
+*05-04-2023* **Martijn:**
+css grid werkt, html is aangepast, header werkt nu ook.
