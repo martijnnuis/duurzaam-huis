@@ -86,4 +86,3 @@ function showBesparing() {
     generateNumber(60000, 600000);
 }
 setInterval(showBesparing, randomTime);
-

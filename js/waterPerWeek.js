@@ -1,7 +1,8 @@
 const xValues = ["Maandag", "Dinsdag", "Woensdag", "Donderdag", "Vrijdag", "Zaterdag", "Zondag"];
-const yValues = [27, 119, 180, 480, 332, 412, 430];
+const yValues = [270, 190, 341, 312, 420, 3, 297];
 
 new Chart("waterVerbruik", {
+
   type: "line",
   data: {
     labels: xValues,

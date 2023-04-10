@@ -6,16 +6,15 @@
 }
 
 html{
-    /* 1 REM IS NU 10 PX */
     font-size: 62.5%;
 }
 
 :root{
-    --background--body: #9da482;
-    --color--text: #232914;
-    --color--highlights: #5c644e;
     --color--boxes: #aabeab;
+    --background--body: #9da482;
     --extra--color:#879884;
+    --color--highlights: #5c644e;
+    --color--text: #232914;
 }
 
 body{
@@ -26,7 +25,6 @@ body{
 
 
     /* Main */
-
 main{
     margin: 2rem;
 }
@@ -38,17 +36,17 @@ main{
 }
 
     /* Header */
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 12rem;
+    width: 100%;
+}
 
 .dashboard-name{
     display: flex;
     align-items: start;
     gap: 2rem;
-}
-
-.header{
-    display: flex;
-    justify-content: space-between;
-    padding: 2rem 5rem;
 }
 
 .header img {
@@ -80,6 +78,10 @@ main{
     height: 3.2rem;
 }
 
+.time{
+    width: 18rem;
+}
+
 .time, .date{
     display: flex;
     flex-direction: row;
@@ -93,7 +95,6 @@ main{
 
 
     /* Content van dashbaord */
-
 .content{
     display: grid;
     grid-gap: 5rem;
@@ -102,7 +103,6 @@ main{
 
 
     /* Boxes algemeen */
-
 .box{
     border: 0.3rem solid rgba(0, 0, 0, 0.8);
     font-size: 3rem;
@@ -113,17 +113,18 @@ main{
     max-width: 50rem;
     
     display: flex;
+    flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: start;
 }
 
 .box h2{
-    font-size: 3rem;
+    font-size: 2.8rem;
     font-weight: 300;
 }
 
 .box p{
-    font-size: 1.5rem;
+    font-size: 1.8rem;
 }
 
     /* Box 1 */
@@ -139,23 +140,91 @@ main{
 
 
     /* Box 4 */
-
-.box-4{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: start;
-}
-
-
 .box-4 button{
     font-size: 2rem;
     padding: 0.5rem;
     border: 0.1rem solid var(--color--highlights);
     border-radius: 0.5rem;
-    margin: 1.5rem 0;
+    margin: 1rem 0;
 }
 
+/* Box 5 */
+
+
+
+/* Box 6 */
+.box-6 h2{
+    margin: 0 0 1.5rem 0;
+}
+
+.licht-sliders{
+    display: flex;
+    flex-direction: row;
+    gap: 5rem;
+}
+
+.licht-col-1, .licht-col-2{
+    display: flex;
+    flex-direction: column;
+}
+
+.item p{
+    font-weight: 500;
+    margin-bottom: -1rem;
+}
+
+.item{
+    margin: 0 0 1.5rem 0;
+}
+
+.box-6 input{
+    appearance: none;
+    background: var(--color--boxes);
+    border-radius: 0.5rem;
+}
+
+.box-6 input::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 1.5rem;
+    height: 1.5rem;
+    border-radius: 50%;
+    background: var(--color--boxes);
+    border: 1.5px solid black;
+    cursor: pointer;
+}
+
+.slider::-webkit-slider-thumb:hover {
+    transform: scale(1.1);
+    background: #2c3e50;
+}
+
+.slider {
+    height: 1rem;
+    outline: none;
+}
+
+.value {
+    display: inline-block;
+    text-align: center;
+    font-size: 2rem;
+    color: #fff;
+    background: #2c3e50;
+    border-radius: 3px;
+    padding: 5px 10px;
+    width: 4rem;
+}
+
+.energieStatus{
+    display: flex;
+    align-items: center;
+}
+
+.energieStatus img{
+    width: 4rem;
+    height: 4rem;
+    margin: 0 0 0 1rem;
+}
 
     /* Responsive */
 

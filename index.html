@@ -9,7 +9,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
     <title>Duurzaamhuis dashboard</title>
-    <link rel="stylesheet" href="/css/style.css">
+    <link rel="icon" href="IMG/logo.webp">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
@@ -17,7 +18,7 @@
 
         <header class="header">
 
-            
+
             <section class="dashboard-name">
                 <img class="logoImg" src="img/logo.webp" alt="LeBeMa Logo, sage-groen rondje met zwarte bomen">
                 <h1>Vision of LeBeMa</h1>
@@ -58,10 +59,9 @@
 
 
             <article class="box box-4">
-                <h2>Weergave waterverbruik</h2>
-                <a href="waterverbruik.html" target="_blank"><button>Zie specificaties</button></a>
-                <p>Afgelopen 24 uur is er ... kuub water vebruikt</p>
-                <p>Afgelopen 7 dagen is er ... kuub water verbruikt</p>
+                <h2>Waterverbruik afgelopen week</h2>
+                <canvas class="waterVerbruik" id="waterVerbruik"></canvas>
+                <a href="waterPerMaand.html" target="_blank"><button>Bekijk deze maand</button></a>
             </article>
 
 
@@ -73,17 +73,59 @@
 
 
             <article class="box box-6">
-                <h2>title</h2>
+                <h2>Licht sterktes</h2>
 
-                <p>beschrijving</p>
-                <input type="range">
-                
-                <p>beschrijving</p>
-                <input type="range">
-                
-                <p>beschrijving</p>
-                <input type="range">
-                
+                <section id="licht-sliders" class="licht-sliders">
+
+                    <section class="licht-col-1">
+                        <div class="item">
+                            <p>Woonkamer</p>
+                            <input id="slider" class="slider" type="range" min="0" max="10" step="1">
+                            <div id="value" class="value">0</div>
+                        </div>
+
+                        <div class="item">
+                            <p>Keuken</p>
+                            <input id="slider2" class="slider" type="range" min="0" max="10" step="1">
+                            <div id="value2" class="value">0</div>
+                        </div>
+
+                        <div class="item">
+                            <p>Gang</p>
+                            <input id="slider3" class="slider" type="range" min="0" max="10" step="1">
+                            <div id="value3" class="value">0</div>
+                        </div>
+
+                    </section>
+
+                    <section class="licht-col-2">
+
+                        <div class="item">
+                            <p>Badkamer</p>
+                            <input id="slider4" class="slider" type="range" min="0" max="10" step="1">
+                            <div id="value4" class="value">0</div>
+                        </div>
+
+                        <div class="item">
+                            <p>Slaapkamer</p>
+                            <input id="slider5" class="slider" type="range" min="0" max="10" step="1">
+                            <div id="value5" class="value">0</div>
+                        </div>
+
+                        <div class="item">
+                            <p>Zolder</p>
+                            <input id="slider6" class="slider" type="range" min="0" max="10" step="1">
+                            <div id="value6" class="value">0</div>
+                        </div>
+
+                    </section>
+
+
+                </section>
+                <section class="energieStatus">
+                    <p id="lichtHoeveelheid">Energie status:</p>
+                    <img id="energieFoto" src="" alt="">
+                </section>
 
             </article>
 
@@ -91,14 +133,11 @@
         </section>
 
 
-
-
-
-
     </main>
 </body>
-<script src="/js/main.js" defer></script>
-<script src="/js/waterverbruik.js" defer></script>
+<script src="js/main.js" defer></script>
+<script src="js/lichtstanden.js" defer></script>
+<script src="/js/waterPerWeek.js" defer></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js"></script>
 
 </html>
