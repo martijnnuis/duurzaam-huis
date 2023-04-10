@@ -1,3 +1,4 @@
+    /* Algemeen */
 *{
     padding: 0;
     margin: 0;
@@ -23,16 +24,20 @@ body{
     border: 3rem solid var(--color--highlights);
 }
 
+
+    /* Main */
+
 main{
     margin: 2rem;
 }
-
 
 .dashboard{
     display: flex;
     flex-direction: column;
     align-items: center;
 }
+
+    /* Header */
 
 .dashboard-name{
     display: flex;
@@ -86,11 +91,17 @@ main{
     height: 5rem;
 }
 
+
+    /* Content van dashbaord */
+
 .content{
     display: grid;
     grid-gap: 5rem;
     grid-template-columns: repeat(3, 1fr);
 }
+
+
+    /* Boxes algemeen */
 
 .box{
     border: 0.3rem solid rgba(0, 0, 0, 0.8);
@@ -106,6 +117,29 @@ main{
     justify-content: center;
 }
 
+.box h2{
+    font-size: 3rem;
+    font-weight: 300;
+}
+
+.box p{
+    font-size: 1.5rem;
+}
+
+    /* Box 1 */
+
+
+
+    /* Box 2 */
+
+
+
+    /* Box 3 */
+
+
+
+    /* Box 4 */
+
 .box-4{
     display: flex;
     flex-direction: column;
@@ -113,10 +147,6 @@ main{
     justify-content: start;
 }
 
-.box-4 h2{
-    font-size: 3rem;
-    font-weight: 300;
-}
 
 .box-4 button{
     font-size: 2rem;
@@ -126,9 +156,8 @@ main{
     margin: 1.5rem 0;
 }
 
-.box-4 p{
-    font-size: 1.5rem;
-}
+
+    /* Responsive */
 
 @media (max-width: 1650px) {
     .content{
