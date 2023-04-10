@@ -36,7 +36,7 @@ main{
 
 .dashboard-name{
     display: flex;
-    align-items: center;
+    align-items: start;
     gap: 2rem;
 }
 
@@ -48,16 +48,17 @@ main{
 
 .header img {
     display: block;
-    max-height: 25rem;
-    max-width: 25rem; 
+    max-height: 20rem;
+    max-width: 20rem; 
     display: flex;
     flex-wrap:wrap;  
     flex-grow: 1;
 }
 
 .header h1{
-    font-size: 8rem;
+    font-size: 7rem;
     font-weight: 400;
+    margin: 1rem 0 0 0;
 } 
 
 .header-date{
@@ -92,17 +93,41 @@ main{
 }
 
 .box{
-    border: 0.5rem solid rgba(0, 0, 0, 0.8);
+    border: 0.3rem solid rgba(0, 0, 0, 0.8);
     font-size: 3rem;
-    border-radius: 1.5rem;
+    border-radius: 5rem;
     padding: 2rem;
     
-    height: 36.8rem;
+    height: 37rem;
     max-width: 50rem;
     
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.box-4{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+}
+
+.box-4 h2{
+    font-size: 3rem;
+    font-weight: 300;
+}
+
+.box-4 button{
+    font-size: 2rem;
+    padding: 0.5rem;
+    border: 0.1rem solid var(--color--highlights);
+    border-radius: 0.5rem;
+    margin: 1.5rem 0;
+}
+
+.box-4 p{
+    font-size: 1.5rem;
 }
 
 @media (max-width: 1650px) {
