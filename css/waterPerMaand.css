@@ -1,0 +1,58 @@
+    /* Algemeen */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+:root{
+    --color--boxes: #aabeab;
+    --background--body: #9da482;
+    --extra--color:#879884;
+    --color--highlights: #5c644e;
+    --color--text: #232914;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2rem;
+    border: 3rem solid var(--color--highlights);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.graph{
+    border: 0.3rem solid rgba(0, 0, 0, 0.8);
+    font-size: 3rem;
+    border-radius: 5rem;
+
+    margin: 5rem;
+    padding: 2rem;
+    
+    width: 100rem;
+    height: 80%;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.graph h2{
+    font-size: 5rem;
+    font-weight: 400;
+}
+
+.graph button{
+    font-size: 2rem;
+    padding: 0.5rem;
+    border: 0.1rem solid var(--color--highlights);
+    border-radius: 0.5rem;
+    margin: 1rem 0;
+}

@@ -47,11 +47,6 @@ slider6.oninput = function () {
 }
 
 
-
-
-
-
-
 function checkValues() {
 
   let value = document.getElementById("slider");
@@ -91,7 +86,5 @@ function checkValues() {
 
   }, 1000);
 }
-
-
 
 checkValues();

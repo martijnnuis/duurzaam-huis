@@ -148,6 +148,10 @@ main{
     margin: 1rem 0;
 }
 
+.box-4 button:hover{
+    background-color: #D3D3D3;
+}
+
 /* Box 5 */
 
 
@@ -227,7 +231,6 @@ main{
 }
 
     /* Responsive */
-
 @media (max-width: 1650px) {
     .content{
         grid-template-columns: repeat(2, 1fr);
