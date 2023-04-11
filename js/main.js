@@ -63,7 +63,7 @@ window.onload = (generateNumber(60000, 600000))
 
 function showBesparing() {
 
-    let randomNumber = Math.random() * 11;
+    let randomNumber = Math.random() * 2;
     beginNumber += randomNumber
 
     showNumber = beginNumber.toFixed(2);
@@ -71,3 +71,28 @@ function showBesparing() {
     generateNumber(60000, 600000);
 }
 setInterval(showBesparing, randomTime);
+
+
+
+const besparingText2 = document.getElementById("js--besparing-text-2");
+
+let beginNumber2 = 0
+let randomTime2 = 0
+
+function generateNumber2(min, max) {
+    randomTime2 = Math.floor(Math.random()* (max - min)+ min);
+    console.log(randomTime2);
+}
+
+window.onload = (generateNumber2(60000, 600000))
+
+function showBesparing2() {
+
+    let randomNumber2 = Math.random() * 2;
+    beginNumber2 += randomNumber2
+
+    showNumber2 = beginNumber2.toFixed(2);
+    besparingText2.innerText = "€" + showNumber2;
+    generateNumber(60000, 600000);
+}
+setInterval(showBesparing2, randomTime2);
