@@ -67,7 +67,7 @@ function showBesparing() {
     beginNumber += randomNumber
 
     showNumber = beginNumber.toFixed(2);
-    besparingText.innerText = showNumber;
+    besparingText.innerText = "€" + showNumber;
     generateNumber(60000, 600000);
 }
 setInterval(showBesparing, randomTime);

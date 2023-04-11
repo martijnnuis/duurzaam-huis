@@ -121,6 +121,7 @@ main{
 .box h2{
     font-size: 2.8rem;
     font-weight: 300;
+    margin: 0 0 1.5rem 0;
 }
 
 .box p{
@@ -128,6 +129,49 @@ main{
 }
 
     /* Box 1 */
+
+.besparing{
+    display: flex;
+    position: relative;
+    gap: 5rem;
+}
+
+.zonnepaneel, .windturbine{
+    background: black;
+    overflow: hidden;
+    width: 18rem;
+    height: 25rem;
+    border-radius: 4rem;
+    display: block;
+}
+
+.besparing img{
+    width: 100%;
+    height: 100%;
+    border-radius: 4rem;
+    object-fit: cover;
+    opacity: 0.5;
+}
+
+.zonnepaneel p, .windturbine p{
+    color: white;
+    font-size: 4rem;
+    position: absolute;
+    width: 18rem;
+}
+
+.besparing-zon{
+    text-align: center;
+    top: 45%;
+    left: 0;
+}
+
+.windturbine > .besparing-wind{
+    text-align: center;
+    top: 45%;
+    right: 0;
+}
+
 
 
 
@@ -157,10 +201,6 @@ main{
 
 
 /* Box 6 */
-.box-6 h2{
-    margin: 0 0 1.5rem 0;
-}
-
 .licht-sliders{
     display: flex;
     flex-direction: row;
