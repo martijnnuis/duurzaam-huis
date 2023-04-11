@@ -62,7 +62,23 @@ main{
     font-size: 7rem;
     font-weight: 400;
     margin: 1rem 0 0 0;
-} 
+}
+
+.team{
+    display: flex;
+    flex-direction: column;
+}
+
+.team-links{
+    display: flex;
+    gap: 1rem;
+    padding: 1rem;
+}
+
+.team-links img{
+    width: 3.5rem;
+    height: 3.5rem;
+}
 
 .header-date{
     display: flex;
@@ -139,8 +155,8 @@ main{
 .zonnepaneel, .windturbine{
     background: black;
     overflow: hidden;
-    width: 18rem;
-    height: 25rem;
+    width: 20rem;
+    height: 27rem;
     border-radius: 4rem;
     display: block;
 }
