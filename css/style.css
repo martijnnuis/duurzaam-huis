@@ -247,3 +247,87 @@ main{
         gap: 2rem;
     }
 }
+
+@media (max-width: 420px) {
+    
+    .header{
+        padding: 0;
+    }
+
+    .logoImg{
+        width: 10rem;
+    }
+
+    .header h1{
+        font-size: 3.5rem;
+    }
+
+    body{
+        border: 2rem solid var(--color--highlights);
+    }
+
+    .header-date{
+        align-items: center;
+        margin-bottom: 2rem;
+        gap: 0.5rem;
+    }
+
+    .header-date p{
+        font-size: 1.8rem;
+    }
+
+    .date{
+        width: 21rem;
+        height: 4rem;
+    }
+
+    .time{
+        width: 19rem;
+        height: 4rem;
+    }
+
+    .header-date img{
+        width: 2.5rem;
+        height: 2.5rem;
+    }
+
+    
+    .box{
+        max-width: 30rem;
+    }
+
+    .box h2{
+        font-size: 2.4rem;
+    }
+
+    .waterVerbruik{
+        margin-top: 2rem;
+    }
+
+    .item{
+        margin: 0 0 2rem 0;
+    }
+
+    .item p{
+        font-size: 1.5rem;
+        margin-bottom: 0.5rem;
+    }
+
+    .item input{
+        width: 7rem;
+    }
+
+    .value{
+        width: 1.5rem;
+        padding: 0.5rem;
+    }
+
+    .item .value{
+        width: 3rem;
+        font-size: 2rem;
+    }
+    
+    .licht-sliders{
+        gap: 3rem;
+    }
+}

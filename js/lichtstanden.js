@@ -70,17 +70,17 @@ function checkValues() {
     sum = (+value.value + +value2.value + +value3.value + +value4.value + +value5.value + +value6.value);
 
     if (sum >= 38) {
-      document.getElementById("energieFoto").setAttribute("src", "img/sad.png");
+      document.getElementById("energieFoto").setAttribute("src", "img/sad.webp");
       return;
     }
 
     else if (sum < 23) {
-      document.getElementById("energieFoto").setAttribute("src", "img/happy.png");
+      document.getElementById("energieFoto").setAttribute("src", "img/happy.webp");
       return;
     }
 
     else {
-      document.getElementById("energieFoto").setAttribute("src", "img/neutraal.png");
+      document.getElementById("energieFoto").setAttribute("src", "img/neutraal.webp");
       return;
     }
 
