@@ -43,6 +43,9 @@ Besparing layout staat klaar
 *11-04-2023* **Martijn:**
 optel systeem doet het bij alles!
 
+*11-04-2023* **Bente:**
+SEO deel 1 gemaakt
+
 
 ### Feature-Layout
 
