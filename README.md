@@ -40,6 +40,9 @@ Img zijn webp en dashboard is responsive voor telefoon.
 *11-04-2023* **Bente:**
 Besparing layout staat klaar
 
+*11-04-2023* **Martijn:**
+optel systeem doet het bij alles!
+
 
 ### Feature-Layout
 
@@ -79,3 +82,4 @@ het optel systeem is werkt en doet dit tussen de 1 en 10 minuten.
 
 *05-04-2023* **Martijn:**
 css grid werkt, html is aangepast, header werkt nu ook.
+
