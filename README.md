@@ -37,6 +37,10 @@ Button water per maand heeft hover.
 *11-04-2023* **Bente:**
 Img zijn webp en dashboard is responsive voor telefoon.
 
+*11-04-2023* **Bente:**
+Besparing layout staat klaar
+
+
 ### Feature-Layout
 
 *26-02-2023* **Bente:**
