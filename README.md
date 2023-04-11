@@ -34,6 +34,8 @@ Laatste updates aan licht en water boxes.
 *11-04-2023* **Bente:**
 Button water per maand heeft hover.
 
+*11-04-2023* **Bente:**
+Img zijn webp en dashboard is responsive voor telefoon.
 
 ### Feature-Layout
 
