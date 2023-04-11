@@ -21,6 +21,20 @@ body{
     font-family: 'Montserrat', sans-serif;
     font-size: 2rem;
     border: 3rem solid var(--color--highlights);
+    background-color: white;
+    color: black;
+}
+
+.dark-mode {
+    background-color: #3A3A3A;
+    color: white;
+}
+
+.darkmode{
+    font-size: 1.5rem;
+    padding: 0.5rem;
+    border: 0.1rem solid var(--color--highlights);
+    border-radius: 1rem;
 }
 
 
@@ -34,6 +48,7 @@ main{
     flex-direction: column;
     align-items: center;
 }
+
 
     /* Header */
 .header{
@@ -144,8 +159,8 @@ main{
     font-size: 1.8rem;
 }
 
-    /* Box 1 */
 
+    /* Box 1 */
 .besparing{
     display: flex;
     position: relative;
@@ -189,8 +204,6 @@ main{
 }
 
 
-
-
     /* Box 2 */
 
 
@@ -212,8 +225,8 @@ main{
     background-color: #D3D3D3;
 }
 
-/* Box 5 */
 
+/* Box 5 */
 
 
 /* Box 6 */
@@ -285,6 +298,7 @@ main{
     height: 4rem;
     margin: 0 0 0 1rem;
 }
+
 
     /* Responsive */
 @media (max-width: 1650px) {

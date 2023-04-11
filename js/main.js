@@ -96,3 +96,8 @@ function showBesparing2() {
     generateNumber(60000, 600000);
 }
 setInterval(showBesparing2, randomTime2);
+
+function darkmode() {
+    var element = document.body;
+    element.classList.toggle("dark-mode");
+ }
