@@ -13,6 +13,27 @@ HTML bestand is toegevoegd en basis staat.
 *23-2-2023* **Martijn:**
 css styling met root staat klaar om ingevuld te worden.
 
+*07-04-2023* **Bente:**
+Header, logo title en date-time gestyled.
+
+*10-04-2023* **Bente:**
+Header en boxes zijn responsive.
+
+*10-04-2023* **Bente:**
+Grafiek voor water goede kleur+kleine aanpassingen.
+
+*10-04-2023* **Bente:**
+CSS Gecomment.
+
+*10-04-2023* **Bente:**
+Licht sterktes af.
+
+*10-04-2023* **Bente:**
+Laatste updates aan licht en water boxes.
+
+*11-04-2023* **Bente:**
+Button water per maand heeft hover.
+
 
 ### Feature-Layout
 
