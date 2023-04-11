@@ -56,3 +56,7 @@ body{
     border-radius: 0.5rem;
     margin: 1rem 0;
 }
+
+button:hover{
+    background-color: #D3D3D3;
+}
