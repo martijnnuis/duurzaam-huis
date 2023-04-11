@@ -51,21 +51,6 @@ setInterval(tijd, 1000);
 
 const besparingText = document.getElementById("js--besparing-text");
 
-
-
-
-// function showBesparing () {
-
-//     let randomNumber = Math.floor(Math.random() * 11);
-//     let randomDecimal = Math.floor(Math.random() * 99);
-
-//     if (randomDecimal < 10) {
-//         randomDecimal = "0" + randomDecimal;
-//     }
-
-//     showNumber = randomNumber + "," + randomDecimal;
-//     besparingText.innerText = showNumber;
-// }
 let beginNumber = 0
 let randomTime = 0
 
