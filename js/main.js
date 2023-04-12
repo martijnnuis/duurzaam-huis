@@ -113,16 +113,17 @@ const labels = [
   
   const data = {
     labels: labels,
-    datasets:[
-      {
-        label: "Energieverbruik in kW",
+
+    datasets: [{
+        label: 'Energieverbruik in kW',
         data: [120, 50, 200, 110, 220],
-        backgroundColors: [
-        '#D21312', 
-        '#009FBD', 
-        '#210062', 
-        '#77037B', 
-        '#FF6000']
+        backgroundColor: [
+            '#D21312', 
+            '#009FBD', 
+            '#210062', 
+            '#77037B', 
+            '#FF6000'
+        ]
       }
     ]
   }
