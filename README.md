@@ -38,7 +38,7 @@ Button water per maand heeft hover.
 Img zijn webp en dashboard is responsive voor telefoon.
 
 *11-04-2023* **Bente:**
-Besparing layout staat klaar
+Besparing layout staat klaar.
 
 *11-04-2023* **Martijn:**
 optel systeem doet het bij alles!
@@ -49,7 +49,11 @@ SEO deel 1 gemaakt.
 *12-04-2023* **Bente:**
 Eerste opzet voor light - dark mode.
 
+*12-04-2023* **Bente:**
+Chart is gas ipv water en gegevens brederode school staa erin.
 
+*12-4-2023* **Lena:**
+De grafiek voor energieverbruik is gemaakt.
 
 ### Feature-Layout
 
