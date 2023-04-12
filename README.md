@@ -44,7 +44,11 @@ Besparing layout staat klaar
 optel systeem doet het bij alles!
 
 *11-04-2023* **Bente:**
-SEO deel 1 gemaakt
+SEO deel 1 gemaakt.
+
+*12-04-2023* **Bente:**
+Eerste opzet voor light - dark mode.
+
 
 
 ### Feature-Layout
