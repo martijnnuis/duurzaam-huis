@@ -90,7 +90,7 @@ main{
     padding: 1rem;
 }
 
-.team-links img{
+.team-links > a > img{
     width: 3.5rem;
     height: 3.5rem;
 }
