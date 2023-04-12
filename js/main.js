@@ -56,7 +56,6 @@ let randomTime = 0
 
 function generateNumber(min, max) {
     randomTime = Math.floor(Math.random()* (max - min)+ min);
-    console.log(randomTime);
 }
 
 window.onload = (generateNumber(60000, 600000))

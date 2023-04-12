@@ -1,27 +1,32 @@
-const xValues = ["01", "02", "03", "04", "05", "06", "07", "08", "09", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "28", "29", "30", "31"];
-const yValues = [270, 1190, 1500, 1800, 3320, 4120, 4300, 0];
+const chartCanvas = document.getElementById('myChart');
 
-new Chart("waterVerbruik2", {
+const energyData = [6.33, 6.39, 6.38, 6.13, 5.81, 5.87, 5.63, 5.49, 5.41, 5.35, 5.42, 5.14, 5.34, 5.3, 5.05, 4.85, 4.86, 4.99, 4.96, 5.06, 5.06, 4.96, 4.84, 4.53, 4.37, 4.55, 4.49, 4.55, 4.19, 6.69];
 
-  
-  type: "line",
+const dailyTotals = [energyData[0]];
+for (let i = 1; i < energyData.length; i++) {
+  dailyTotals.push(dailyTotals[i - 1] + energyData[i]);
+}
+
+const days = Array.from({ length: energyData.length }, (_, i) => i + 1);
+
+const myChart = new Chart("waterVerbruik2", {
+  type: 'line',
   data: {
-    labels: xValues,
+    labels: days,
     datasets: [{
+      label: 'Totaal gas verbruik',
+      data: dailyTotals,
       fill: true,
-      lineTension: 0.5,
       borderColor: "rgba(119,135,119,1)",
-      data: yValues
-
+      tension: 0.5
     }]
   },
   options: {
-    responsive: true,
     legend: {
       display: false
     },
     scales: {
-      yAxes: [{ ticks: { min: 0, max: 10000 } }],
+      yAxes: [{ ticks: { min: 0, max: 160 } }],
     }
   }
 });

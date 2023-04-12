@@ -1,5 +1,5 @@
-const xValues = ["Maandag", "Dinsdag", "Woensdag", "Donderdag", "Vrijdag", "Zaterdag", "Zondag"];
-const yValues = [270, 190, 341, 312, 420, 3, 297];
+const xValues = ["maandag", "dinsdag", "woensdag", "donderdag", "vrijdag", "zaterdag", "zondag"];
+const yValues = [6.3, 12.7, 19, 25.1, 31, 36.9, 45.5];
 
 new Chart("waterVerbruik", {
 
@@ -19,7 +19,7 @@ new Chart("waterVerbruik", {
       display: false
     },
     scales: {
-      yAxes: [{ ticks: { min: 0, max: 500 } }],
+      yAxes: [{ ticks: { min: 0, max: 50 } }],
     }
   }
 });
