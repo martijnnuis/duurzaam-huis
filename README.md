@@ -52,6 +52,8 @@ Eerste opzet voor light - dark mode.
 *12-04-2023* **Bente:**
 Chart is gas ipv water en gegevens brederode school staa erin.
 
+*12-4-2023* **Lena:**
+De grafiek voor energieverbruik is gemaakt.
 
 ### Feature-Layout
 

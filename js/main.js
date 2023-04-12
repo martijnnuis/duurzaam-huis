@@ -100,3 +100,41 @@ function darkmode() {
     var element = document.body;
     element.classList.toggle("dark-mode");
  }
+
+// energy chart
+
+const labels = [
+    "Wasmachine",    
+    "föhn",
+    "droger",
+    "TV",
+    "Koelkast",    
+  ];
+  
+  const data = {
+    labels: labels,
+    datasets:[
+      {
+        label: "Energieverbruik in kW",
+        data: [120, 50, 200, 110, 220],
+        backgroundColors: [
+        '#D21312', 
+        '#009FBD', 
+        '#210062', 
+        '#77037B', 
+        '#FF6000']
+      }
+    ]
+  }
+  
+  const config = {
+    type: 'doughnut',
+    data: data,
+    options: {},
+    maintainAspectRatio: false,
+  }
+  
+  new Chart(document.getElementById("js--chart--energy"),
+  config
+  );
+  
