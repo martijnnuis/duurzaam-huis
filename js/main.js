@@ -107,8 +107,8 @@ function darkmode() {
 
 const labels = [
     "Wasmachine",    
-    "föhn",
-    "droger",
+    "Föhn",
+    "Droger",
     "TV",
     "Koelkast",    
   ];
