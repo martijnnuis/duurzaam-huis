@@ -157,4 +157,4 @@ function lichtaanuit(){
         } else lichtTekst.innerText = "licht staat uit";
     })
 }
-setInterval(lichtaanuit, 7000)
+setInterval(lichtaanuit, 1000)
