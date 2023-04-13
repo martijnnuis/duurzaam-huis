@@ -153,8 +153,8 @@ function lichtaanuit(){
     }).then(function(lichtaanuitjson){
         console.log(lichtaanuitjson);
         if(lichtaanuitjson.led1 == true){
-            lichtTekst.innerText = "licht staat aan";
-        } else lichtTekst.innerText = "licht staat uit";
+            lichtTekst.innerText = "Licht staat aan";
+        } else lichtTekst.innerText = "Licht staat uit";
     })
 }
 setInterval(lichtaanuit, 1000)

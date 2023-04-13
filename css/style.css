@@ -210,7 +210,10 @@ main{
 
     /* Box 3 */
 
-
+.last-minute{
+    font-size: 3rem;
+    font-weight: 150;
+}
 
     /* Box 4 */
 .box-4 button{
