@@ -137,4 +137,21 @@ const labels = [
   new Chart(document.getElementById("js--chart--energy"),
   config
   );
-  
+
+// licht sensor
+
+const lichtTekst = document.getElementById("js--licht--aan-uit");
+
+function lichtaanuit(){
+    let lichtsensor = fetch("https://35205.hosts2.ma-cloud.nl/duurzaamhuis/post.php")
+    .then(function(resonse){
+        console.log(resonse);
+        return resonse.json();
+    }).then(function(lichtaanuitjson){
+        console.log(lichtaanuitjson);
+        if(lichtaanuitjson.led1 == true){
+            lichtTekst.innerText = "licht staat aan";
+        } else lichtTekst.innerText = "licht staat uit";
+    })
+}
+setInterval(lichtaanuit, 7000)
