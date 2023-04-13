@@ -33,7 +33,7 @@ body{
 .darkmode{
     font-size: 1.5rem;
     padding: 0.5rem;
-    border: 0.1rem solid var(--color--highlights);
+    border: 0.2rem solid black;
     border-radius: 1rem;
 }
 
@@ -110,7 +110,7 @@ main{
 }
 
 .time{
-    width: 18rem;
+    min-width: 18rem;
 }
 
 .time, .date{

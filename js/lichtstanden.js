@@ -69,18 +69,23 @@ function checkValues() {
 
     sum = (+value.value + +value2.value + +value3.value + +value4.value + +value5.value + +value6.value);
 
-    if (sum >= 38) {
-      document.getElementById("energieFoto").setAttribute("src", "img/sad.webp");
-      return;
-    }
-
-    else if (sum < 23) {
+    if (sum <= 25) {
       document.getElementById("energieFoto").setAttribute("src", "img/happy.webp");
       return;
     }
 
-    else {
+    else if (sum > 25 && sum < 40) {
       document.getElementById("energieFoto").setAttribute("src", "img/neutraal.webp");
+      return;
+    }
+
+    else if (sum >= 40 && sum < 55) {
+      document.getElementById("energieFoto").setAttribute("src", "img/sad.webp");
+      return;
+    }
+
+    else {
+      document.getElementById("energieFoto").setAttribute("src", "img/boos.webp");
       return;
     }
 
